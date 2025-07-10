@@ -127,7 +127,7 @@ main {
     color: #4E47FF;
     font-size: 80px;
     font-weight: bold;
-    height:40px;
+    height: 40px;
 }
 
 .contant-p {
@@ -233,7 +233,7 @@ main {
     display: flex;
     padding-top: 100px;
     padding-bottom: 90px;
-    
+
     gap: 230px;
     align-items: center;
 }
@@ -255,9 +255,10 @@ main input[type="email"] {
     box-shadow: 1px 1px 1px rgb(151, 136, 136);
 
 }
-main input[type="button"]{
+
+main input[type="button"] {
     border-radius: 10px;
-    padding: 20px 232px;
+    padding: 20px 228px;
     background-color: #4E47FF;
     border: none;
     color: #FFFFFF;
@@ -265,6 +266,7 @@ main input[type="button"]{
     font-weight: 500;
     cursor: pointer;
 }
+
 main textarea {
 
     width: 500px;
@@ -315,7 +317,7 @@ footer {
     color: #757575;
     font-size: 20px;
 }
- 
+
 .a-tag {
     display: flex;
     justify-content: center;
@@ -325,6 +327,7 @@ footer {
 .a-tag a:hover {
     color: #252432;
 }
+
 h1.footer-logo {
     height: 60px;
 }

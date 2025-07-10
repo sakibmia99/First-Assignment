@@ -1,8 +1,8 @@
-body{
+body {
     background-color: aliceblue;
-} 
- 
- /* header styles */
+}
+
+/* header styles */
 
 .roboto-normal {
     font-family: "Roboto", sans-serif;
@@ -39,6 +39,7 @@ nav ul a {
     font-size: 30px;
 }
 
+/* banner section styles */
 .banner-section {
     text-align: center;
     padding: 90px;
@@ -61,21 +62,20 @@ nav ul a {
     border-radius: 10px;
     cursor: pointer;
 }
-.btn:hover{
+
+.btn:hover {
     background-color: yellow;
-    font-size: 1.35em ;
+    font-size: 1.35em;
     color: #1E1E1E;
 }
 
 /* main style */
-
 main {
     max-width: 1140px;
     margin: 0 auto;
 }
 
 /* action styles */
-
 .action-section {
     margin-top: 150px;
     margin-bottom: 150px;
@@ -127,6 +127,7 @@ main {
     color: #4E47FF;
     font-size: 80px;
     font-weight: bold;
+    height:40px;
 }
 
 .contant-p {
@@ -134,125 +135,196 @@ main {
     font-size: 20px;
     font-weight: 400;
 }
-/* Users-Feedback-Style */
-.Users-Feedback-Section{
+
+/* Users-Feedback-section Style */
+.Users-Feedback-Section {
     margin-top: 150px;
     margin-bottom: 150px;
 }
-.Users-Feedback-contenar{
+
+.Users-Feedback-contenar {
     display: flex;
     gap: 20px;
     margin-top: 50px;
-    
+
 }
-.oll-contant{
+
+.oll-contant {
     box-shadow: 1px 1px 2px rgb(117, 109, 109);
     border-radius: 14px;
     padding: 30px;
     background-color: white;
 }
-.Users-Feedback-title{
+
+.Users-Feedback-title {
     text-align: center;
     font-size: 42px;
     font-weight: bold;
 }
-.review-data{
+
+.review-data {
     display: flex;
     gap: 20px;
     align-items: center;
 }
-.review-data-img{
-border-radius: 25px;
-width: 40px;
-height: 40px;
- 
+
+.review-data-img {
+    border-radius: 25px;
+    width: 40px;
+    height: 40px;
+
 
 }
-.reviewer-name{
+
+.reviewer-name {
     color: #757575;
     font-weight: 500;
 }
-.date{
+
+.date {
     color: #B3B3B3;
     font-weight: 400;
 }
-.studio-vertex{
+
+.studio-vertex {
     color: 1E1E1E;
     font-weight: 400;
     font-size: 18px;
 }
-.designers{
+
+.designers {
     color: #1E1E1E;
     font-weight: 700;
     font-size: 30px;
 }
-        /* focus-better-style */
 
-.focus-better-section{
+/* focus-better-style */
+.focus-better-section {
     background-color: white;
     border-radius: 14px;
-    padding-top: 40px;
+    padding-top: 25px;
     padding-bottom: 75px;
 }
-.focus-better-section{
+
+.focus-better-section {
     text-align: center;
 }
-.focus-better-title{
+
+.focus-better-title {
     font-size: 50px;
     font-weight: bold;
+    height: 40px;
 }
-.focus-better-p{
+
+.focus-better-p {
     color: #B3B3B3;
     font-size: 20px;
 }
-.wc-big-img{
+
+.wc-big-img {
     border-radius: 48px;
-    margin-top: 17px;
-     
+    margin-top: 23px;
+
 }
+
 /* Lets-Get-In-Touch-style */
 
-.Lets-Get-In-Touch-Section{
+.Lets-Get-In-Touch-Section {
     display: flex;
+    padding-top: 100px;
+    padding-bottom: 90px;
+    
+    gap: 230px;
+    align-items: center;
 }
-.Lets-Get-In-Touch-title{
-    font-size: 97px;
+
+.Lets-Get-In-Touch-title {
+    font-size: 90px;
     font-weight: bold;
+}
+
+main input[type="text"],
+main input[type="email"] {
+    height: 70px;
+    width: 500px;
+    border-radius: 10px;
+    padding: 10px 30px;
+    font-size: 20px;
+    border: none;
+    margin-bottom: 25px;
+    box-shadow: 1px 1px 1px rgb(151, 136, 136);
+
+}
+main input[type="button"]{
+    border-radius: 10px;
+    padding: 20px 232px;
+    background-color: #4E47FF;
+    border: none;
+    color: #FFFFFF;
+    font-size: 19px;
+    font-weight: 500;
+    cursor: pointer;
+}
+main textarea {
+
+    width: 500px;
+    border-radius: 10px;
+    padding: 10px 30px;
+    font-size: 20px;
+    border: none;
+    margin-bottom: 25px;
+    box-shadow: 1px 1px 1px rgb(151, 136, 136);
+}
+
+main label {
+    font-size: 25px;
+    margin-bottom: 20px;
+    display: flex;
+
 }
 
 
 /* footer-section */
 
-footer{
-     background-color: white;
+footer {
+    background-color: white;
 }
-.footer-section{
+
+.footer-section {
     text-align: center;
     padding-top: 5px;
-    padding-bottom: 40px;
-    
+    padding-bottom: 70px;
+
 }
-.footer-logo{
+
+.footer-logo {
     font-size: 100px;
     font-weight: bold;
     color: #4E47FF;
 }
-.footer-p{
+
+.footer-p {
     font-size: 20px;
     font-weight: 400;
     color: #B3B3B3;
-    
+
 }
-.a-tag a{
+
+.a-tag a {
     text-decoration: none;
     color: #757575;
     font-size: 20px;
 }
-.a-tag{
+ 
+.a-tag {
     display: flex;
     justify-content: center;
     gap: 60px;
 }
-.a-tag a:hover{
+
+.a-tag a:hover {
     color: #252432;
+}
+h1.footer-logo {
+    height: 60px;
 }
